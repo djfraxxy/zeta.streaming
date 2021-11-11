@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0 25px;
+    margin-top: 30px;
+    background-color: blue;
+    padding: 25px;
+    border-radius: 20px;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+li {
+    margin: 0 20px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+li:hover {
+    background-color: red;
+    box-shadow: 10px 10px 40px black;
+}
+
+.cont:hover{
+    background-color: seagreen;
+}
+
+.cont1:hover{
+    background-color: goldenrod;
+}
+
+
+#tutto {
+
+
+    position: absolute;
+    margin-top: 400px;
+    
+
+    
+ }
+
+
+
+
+
+
+ .email {
+     margin-bottom: 20px;
+     text-align: center;
+     transition: ease-out 0.5s;
+     color:  white;
+ }
+
+ .email:hover {
+     color: tomato;
+     transition: all 0.5s ease-in-out;
+     font-size: 30px;
+     cursor: pointer;
+ }
+
+ .email:before {
+     color: white;
+     transition: 0.5s all ease;
+     position: absolute;
+ }
+ 
+ .email:hover:before {
+     color: white;
+     transition: 0.5s all ease;
+ }

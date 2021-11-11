@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0 25px;
+    margin-top: 30px;
+    background-color: blue;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+li {
+    margin: 0 25px;
+    padding: 15px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+li:hover {
+    background-color: red;
+    box-shadow: 10px 10px 40px black;
+}
+
+.cont:hover{
+    background-color: seagreen;
+}
+
+.cont1:hover{
+    background-color: goldenrod;
+}
+
+
+
+#tutto {
+   
+    position: absolute;
+    margin-top: 300px;
+}
+
+.didascaliapuntate {
+
+    margin-top: 60px;
+    text-align: center;
+    transition: ease-out 0.5s;
+    font-size: 30px;
+
+}
+
+.didascaliapuntate:hover {
+    background-color: purple;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    padding: 30px;
+
+
+}
+
+.didascaliapuntateinarrivo {
+
+    margin-top: 60px;
+    text-align: center;
+    transition: ease-out 0.5s;
+    font-size: 30px;
+
+}
+
+.didascaliapuntateinarrivo:hover {
+    background-color: gold;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    padding: 30px;
+    color: black;
+
+
+}
